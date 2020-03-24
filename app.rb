@@ -16,5 +16,6 @@ class App < Sinatra::Base
     @repeat.times do
       @string += params[:phrase]
     end
+    @string
   end
 end
